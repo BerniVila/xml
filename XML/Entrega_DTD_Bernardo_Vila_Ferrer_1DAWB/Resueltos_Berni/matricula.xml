@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--se sabe que el siempre tiene que existir al
+menos un domicilio, y que el atributo &#8220;tipo&#8221; es obligatorio, y sólo puede tomar los valores &#8220;familiar&#8221;
+o &#8220;habitual-->
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+<personal>
+<dni>99223366M</dni>
+<nombre>Juan Pardo Martín</nombre>
+<titulacion>Ingeniería Informática</titulacion>
+<curso_academico>1997/1998</curso_academico>
+<domicilios>
+<domicilio tipo="familiar">
+<nombre>C/ Principal no1</nombre>
+</domicilio>
+<domicilio tipo="habitual">
+<nombre>C/ Secundaria no2</nombre>
+</domicilio>
+</domicilios>
+</personal>
+<pago>
+<tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+</pago>
+</matricula>

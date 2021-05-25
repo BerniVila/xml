@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ediciones_aranda>
+  <informe>
+    <cabecera>
+      <descripcion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+      <fecha>30/12/2009</fecha>
+    </cabecera>
+    <datos>
+      <region zona="norte">
+      <trimestre num_trimestre="1">
+            <ventas>
+              <cantidad>24000</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="2">
+            <ventas>
+              <cantidad>38600</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="3">
+            <ventas>
+              <cantidad>NO_INFO</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="4">
+            <ventas>
+              <cantidad>NO_INFO</cantidad>
+            </ventas>
+        </trimestre>
+      </region>
+      
+      <region zona="centro">
+        <trimestre num_trimestre="1">
+            <ventas>
+              <cantidad>NO_INFO</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="2">
+            <ventas>
+              <cantidad>16080</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="3">
+            <ventas>
+              <cantidad>25000</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="4">
+            <ventas>
+              <cantidad>29000</cantidad>
+            </ventas>
+        </trimestre>
+      </region>
+      
+      <region zona="sur">
+        <trimestre num_trimestre="1">
+            <ventas>
+              <cantidad>27000</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="2">
+            <ventas>
+              <cantidad>31400</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="3">
+            <ventas>
+              <cantidad>40100</cantidad>
+            </ventas>
+        </trimestre>
+        <trimestre num_trimestre="4">
+            <ventas>
+              <cantidad>30000</cantidad>
+            </ventas>
+        </trimestre>
+      </region>
+    </datos>
+  </informe>
+</ediciones_aranda>

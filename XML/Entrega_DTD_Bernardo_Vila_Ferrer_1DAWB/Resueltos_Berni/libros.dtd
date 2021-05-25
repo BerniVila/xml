@@ -1,0 +1,13 @@
+<!ELEMENT libros (libreria*)> 
+<!ELEMENT libreria (nombrelibreria, libro*)>
+<!ELEMENT nombrelibreria (#PCDATA)>
+<!ELEMENT libro (isbn, titulo, nivel, autor, editorial, fecha_publicacion, web?, precio)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT web (#PCDATA|EMPTY)*>
+<!ATTLIST precio moneda CDATA "Euro">
+<!ELEMENT precio (#PCDATA)>

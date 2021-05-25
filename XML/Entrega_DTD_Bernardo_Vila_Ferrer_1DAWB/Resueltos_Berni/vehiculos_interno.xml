@@ -1,5 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE oferta SYSTEM "vehiculos.dtd">
+<!DOCTYPE oferta [
+<!ELEMENT oferta (vehiculo*)>
+<!ELEMENT vehiculo (marca, modelo, motor, matricula, kilometros, precio_inicial, precio_oferta, extra*, foto*)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ATTLIST modelo color CDATA "gris">
+<!ELEMENT motor (#PCDATA)>
+<!ATTLIST motor combustible (gasolina | diesel) "gasolina">
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT kilometros (#PCDATA)>
+<!ELEMENT precio_inicial (#PCDATA)>
+<!ELEMENT precio_oferta (#PCDATA)>
+<!ELEMENT extra (#PCDATA)>
+<!ATTLIST extra valor CDATA #REQUIRED>
+<!ELEMENT foto (#PCDATA)>
+]>
 
 <oferta>
 	<vehiculo>

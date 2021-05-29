@@ -1,0 +1,13 @@
+<!ELEMENT ediciones_aranda (informe*)>
+<!ELEMENT informe (cabecera, datos)>
+<!ELEMENT cabecera (descripcion?, fecha)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos (region, region, region)>
+<!ELEMENT region (trimestre, trimestre, trimestre, trimestre)>
+<!ATTLIST region zona CDATA "">
+<!ELEMENT trimestre (ventas?)>
+<!ATTLIST trimestre num_trimestre (1 | 2 | 3 | 4) "4">
+<!ELEMENT ventas (cantidad)>
+<!ELEMENT cantidad (#PCDATA)>
+<!-- Preguntar a pascual por el NO:INFO de la cantidad, si hay que usarlo como atributo forzosamente-->

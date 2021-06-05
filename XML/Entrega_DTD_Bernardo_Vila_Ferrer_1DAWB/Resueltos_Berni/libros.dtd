@@ -8,6 +8,6 @@
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
 <!ELEMENT fecha_publicacion (#PCDATA)>
-<!ELEMENT web (#PCDATA|EMPTY)*>
+<!ELEMENT web (#PCDATA)*>
 <!ATTLIST precio moneda CDATA "Euro">
 <!ELEMENT precio (#PCDATA)>

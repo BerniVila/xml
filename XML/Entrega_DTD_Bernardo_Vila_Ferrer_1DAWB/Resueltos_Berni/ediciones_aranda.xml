@@ -10,70 +10,46 @@
     <datos>
       <region zona="norte">
         <trimestre num_trimestre="1">
-              <ventas>
-                <cantidad>24000</cantidad>
-              </ventas>
+              <ventas cantidad="24000"/>
           </trimestre>
           <trimestre num_trimestre="2">
-              <ventas>
-                <cantidad>38600</cantidad>
-              </ventas>
+              <ventas cantidad="38600"/>
           </trimestre>
           <trimestre num_trimestre="3">
-              <ventas>
-                <cantidad>NO_INFO</cantidad>
-              </ventas>
+              <ventas cantidad="NO_INFO"/>
           </trimestre>
           <trimestre num_trimestre="4">
-              <ventas>
-                <cantidad>NO_INFO</cantidad>
-              </ventas>
+              <ventas cantidad="NO_INFO"/>
         </trimestre>
       </region>
       
       <region zona="centro">
         <trimestre num_trimestre="1">
-            <ventas>
-              <cantidad>NO_INFO</cantidad>
-            </ventas>
+            <ventas cantidad="NO_INFO"/>
         </trimestre>
         <trimestre num_trimestre="2">
-            <ventas>
-              <cantidad>16080</cantidad>
-            </ventas>
+            <ventas cantidad="16080"/>
         </trimestre>
         <trimestre num_trimestre="3">
-            <ventas>
-              <cantidad>25000</cantidad>
-            </ventas>
+            <ventas cantidad="25000"/>
         </trimestre>
         <trimestre num_trimestre="4">
-            <ventas>
-              <cantidad>29000</cantidad>
-            </ventas>
+            <ventas cantidad="29000"/>
         </trimestre>
       </region>
       
       <region zona="sur">
         <trimestre num_trimestre="1">
-            <ventas>
-              <cantidad>27000</cantidad>
-            </ventas>
+            <ventas cantidad="27000"/>
         </trimestre>
         <trimestre num_trimestre="2">
-            <ventas>
-              <cantidad>31400</cantidad>
-            </ventas>
+            <ventas cantidad="31400"/>
         </trimestre>
         <trimestre num_trimestre="3">
-            <ventas>
-              <cantidad>40100</cantidad>
-            </ventas>
+            <ventas cantidad="40100"/>
         </trimestre>
         <trimestre num_trimestre="4">
-            <ventas>
-              <cantidad>30000</cantidad>
-            </ventas>
+            <ventas cantidad="30000"/>
         </trimestre>
       </region>
     </datos>

@@ -7,7 +7,6 @@
 <!ELEMENT region (trimestre, trimestre, trimestre, trimestre)>
 <!ATTLIST region zona CDATA "">
 <!ELEMENT trimestre (ventas?)>
-<!ATTLIST trimestre num_trimestre (1 | 2 | 3 | 4) "4">
-<!ELEMENT ventas (cantidad)>
-<!ELEMENT cantidad (#PCDATA)>
-<!-- Preguntar a pascual por el NO:INFO de la cantidad, si hay que usarlo como atributo forzosamente-->
+<!ATTLIST trimestre num_trimestre (1 | 2 | 3 | 4) #REQUIRED>
+<!ELEMENT ventas EMPTY>
+<!ATTLIST ventas cantidad CDATA "NO_INFO">
